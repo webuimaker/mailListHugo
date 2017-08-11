@@ -1,0 +1,30 @@
+<div class="container-fluid section">
+	<div class="container  mb20 ">
+		<div class="row">
+			<h1 class="text-center mb40">{{.Title}}</h1>
+			<div class="col-md-8">	
+				<div class="row mb15">
+					<div class="col-md-4"><p><strong>Web Address</strong></p></div>
+					<div class="col-md-8"><p>{{ .Site.Params.webadress | safeHTML }}</p></div> 
+				</div>
+				<div class="row mb15">
+					<div class="col-md-4"><p><strong>Postal Address</strong></p></div>
+					<div class="col-md-8"><p> {{ .Site.Params.address | safeHTML }} </p></div>
+				</div>
+				<div class="row mb15">
+					<div class="col-md-4"><p><strong>Phone Number</strong></p></div>
+					<div class="col-md-8"><p> ​{{ .Site.Params.tel | safeHTML }}</p></div>
+				</div>
+							
+			</div>
+			<div class="col-md-4">	
+				<div style="width: 130px;" class="thrv_wrapper tve_image_caption alignright"> 
+					<span class="tve_image_frame"> 
+						<img class="tve_image" alt="" src="{{ .Site.Params.contactLogo | safeHTML }}" style="width: 130px;" height="86" width="130">
+					</span>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>

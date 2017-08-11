@@ -1,0 +1,44 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<span class="social-media"> 
+					<span>Connect with Us</span> 					
+					  {{ range .Site.Menus.social.ByWeight }}
+						<a id="{{ .Name }}" title="{{ .Name }}" rel="external" href="{{ .URL }}"><i class="fa {{ .Pre }} "></i></a>
+					  {{ end }}
+					
+				</span>
+			</div>
+			<div class="col-md-12 mt5">
+				<strong>Legal</strong> ---
+				<ul>
+				
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.footerlegal }}
+						<li class="{{ if $currentPage.IsMenuCurrent "navbar" . }} active {{end}} "><a href="{{ .URL }}">{{.Name }}</a></li>
+				{{ end }}
+								
+				</ul>
+			</div>
+			<div class="col-md-12 mt5">
+				<strong>About </strong> ---
+				<ul>
+					{{ $currentPage := . }}
+				{{ range .Site.Menus.footerabout }}
+						<li class="{{ if $currentPage.IsMenuCurrent "navbar" . }} active {{end}} "><a href="{{ .URL }}">{{.Name }}</a></li>
+				{{ end }}
+					
+				</ul>
+				<p class="copyright">{{ .Site.Params.copyright }}</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>

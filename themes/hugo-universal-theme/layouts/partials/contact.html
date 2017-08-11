@@ -1,0 +1,43 @@
+<div class="container mb50" id="contact">
+    <div class="row">    
+	
+		{{ partial "contact-detail.html" . }}
+	
+    
+		<div class="col-md-12">
+            <section>
+                {{ .Content }}
+                {{ if isset .Site.Params "email" }}
+                
+                  <h1 class="text-center mb40">Please Tell Us What Is On Your Mind</h1>
+                <div id="contact-message"></div>
+				<form action="https://formspree.io/{{ .Site.Params.email }}" enctype="application/x-www-form-urlencoded" method="post" class="contact-form">
+					<div>
+						<p class="label2">Your Email Address {{ i18n "contactMail" }}</p>
+						<input name="email" id="email"  size="20" maxlength="55" type="email" class="mb15"  required>
+						<div class="clear"></div>
+						<p class="label2">Your Comment, Suggestion or Question {{ i18n "contactMessage" }}</p>
+						<textarea id="message" class="form-control" name="message" rows="11" cols="60" required></textarea>
+						<div class="clear"></div><br>
+						<p class="desc">If you would like a reply, please fill in your email address.<br> We reply to all requests within 12 hours.<br> Please provide specific clues so that we may answer correctly on our first response.</p> 
+						<input name="name" src="https://www.mail-list.com/wp-content/uploads/2016/08/send_yl.png?x80233" value="Send" type="image"> 
+						<input name="domain" value="send" type="submit" hidden><div class="clear"></div></div>
+				</form>
+				
+                {{ end }}
+            
+		
+
+			
+			
+			
+			</section>
+        </div>
+
+       
+    </div>
+    <!-- /.row -->
+</div>
+<!--
+{{ partial "map.html" . }}
+-->

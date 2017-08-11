@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+<div class="wrapper">
+    <div id="all">
+		{{ partial "header.html" . }}
+		{{ partial "stop-listserv-delivery-problems.html" . }}
+		{{ partial "discussion-group-clients.html" . }}
+		{{ partial "private-conversations.html" . }}
+		{{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+</div>
+  </body>
+</html>

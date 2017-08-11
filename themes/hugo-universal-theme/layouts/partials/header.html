@@ -1,0 +1,38 @@
+<title>{{ .Title }}</title>
+<header class="container-fluid">
+	<div class="row">
+		<div id="logo" class="col-md-12"> 
+			<a href="https://www.mail-list.com/"> 
+				<img src="https://www.mail-list.com/wp-content/uploads/2016/08/maillist_logo_new_tr.png?x80233" alt="Private Email Discussion Groups" >
+			</a>
+		</div>
+	</div>
+	 <!-- Second navbar for categories -->
+    <nav class="navbar navbar-default mail-list-nav">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand" href="#">Brand</a> -->
+        </div>
+		
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav text-center menu">
+			{{ $currentPage := . }}
+			{{ range .Site.Menus.main }}
+					<li class="{{ if $currentPage.IsMenuCurrent "main" . }} active {{end}} "><a href="{{ .URL }}">{{.Name }}</a></li>
+			{{ end }}
+			
+          </ul>
+       
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+	
+</header>

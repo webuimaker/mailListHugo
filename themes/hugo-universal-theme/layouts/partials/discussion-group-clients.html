@@ -1,0 +1,16 @@
+{{ if isset .Site.Params "clients" }}
+{{ if .Site.Params.clients.enable }}
+<div class="container-fluid section section-gray clients">
+	<div class="container  mb20">
+		<div class="row">
+			<h3 class="text-center mb40 text-center">{{ .Site.Params.clients.title }}</h3>
+			 {{ range .Site.Data.clients }}
+				<div class="col-md-3 mb10 text-center">
+					<img src="{{ .image }}" alt=" {{ .name }} clients" class="img-responsive">			
+				</div>
+            {{ end }}
+		</div>
+	</div>
+</div>
+{{ end }}
+{{ end }}

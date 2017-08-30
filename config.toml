@@ -26,7 +26,7 @@ paginate = 10
 		parent = ""
 		identifier = "Services"
 		weight =2
-		url = "/Services/"
+		url = "#"
 	[[menu.main]]
 		name = "Compare"
 		weight = 3
@@ -42,7 +42,7 @@ paginate = 10
 		parent = ""
 		identifier = "About"
 		weight = 5
-		url = "About"
+		url = "/About/"
 	[[menu.main]]
 		name = "Contact Us"
 		parent = ""
@@ -52,7 +52,7 @@ paginate = 10
 		name = "Login"
 		parent = ""
 		weight = 7
-		url = "Login"
+		url = "https://database.mail-list.com/app/login"
 
 
 # Top bar social links menu
@@ -83,39 +83,38 @@ paginate = 10
 	
 [[menu.Footerlegal]]
 		name = "Mail List Privacy"
-		parent = ""
 		weight = 1
 		url = "/privacy/"
 	[[menu.Footerlegal]]
 		name = "Security"
-		parent = ""
 		weight = 2
 		url = "/Security/"
 	[[menu.Footerlegal]]
 		name = "Terms of Service"
-		parent = ""
 		weight = 3
 		url = "/terms-of-service/"
 	
 	[[menu.Footerabout]]
 		name = "User Guide"
-		parent = ""
 		weight = 1
 		url = "http://help.mail-list.com/m/59124"
 	[[menu.Footerabout]]
 		name = "FAQs"
-		parent = ""
 		weight = 2
 		url = "/frequently-asked-questions/"
 	[[menu.Footerabout]]
 		name = "Videos"
+		weight = 3
+		url = "#"
+	[[menu.Footerabout]]
+		name = "Blog"
 		parent = ""
 		weight = 3
-		url = "/videos/"
+		url = "#"
 	[[menu.Footerabout]]
 		name = "News"
 		parent = ""
-		weight = 3
+		weight = 4
 		url = "https://www.mail-list.com/news/"
 	
 
@@ -166,9 +165,9 @@ paginate = 10
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
+    #categories = true
     tags = true
-    search = true
+    #search = false
 
 [params.clients]
     enable = true
@@ -182,3 +181,5 @@ paginate = 10
     enable = true
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+	
+

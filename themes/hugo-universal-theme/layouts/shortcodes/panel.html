@@ -1,0 +1,21 @@
+<div class="panel {{ if .Get "panel-color"}}{{ .Get "panel-color"}}{{ end }}">
+    <div class="panel-heading">
+        <h3 class="panel-title"> {{ if .Get "panelTitle"}}{{ .Get "panelTitle"}}{{ end }}</h3>
+    </div>
+    <div class="panel-body">
+		<div class="col-md-3">
+			<img class="tve_image" alt="" src="https://www.mail-list.com/wp-content/uploads/2016/07/mark-david-mccreary.jpegresize154155" style="width: 154px;" height="156" width="154">
+			
+			<p class="mt20">
+				<a class="" href="http://www.linkedin.com/in/markdavidmccreary"><img style="" class="" alt="View Mark David McCreary's profile on LinkedIn" title="View Mark David McCreary's profile on LinkedIn" src="https://www.mail-list.com/wp-content/uploads/2016/07/btn_viewmy_160x25.pngresize16025" height="25" width="160"></a>
+			</p>
+			
+		</div>
+		<div class="col-md-9">
+			{{ .Inner }}
+			<div class="pull-right mt20">
+				<img class="tve_image" alt="" src="https://www.mail-list.com/wp-content/uploads/2016/07/signature.pngresize30084" style="width: 300px;" height="84" width="300">
+			</div>
+		</div>
+	</div>
+</div>

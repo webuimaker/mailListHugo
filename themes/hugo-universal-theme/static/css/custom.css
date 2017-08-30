@@ -36,7 +36,7 @@ p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5em;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   word-wrap: break-word; }
 
 /* =Margin + Padding
@@ -341,6 +341,26 @@ ul.tick-list li {
   color: #666;
   font-family: Roboto,sans-serif; }
 
+ul.warning-list li {
+  list-style-image: url(/images/ul4_f_red.png) !important;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+  margin-left: 20px;
+  font-weight: 300;
+  color: #666;
+  font-family: Roboto,sans-serif; }
+
+ul.plus-blue-list li {
+  list-style-image: url(/images/ul3_f_blue.png) !important;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+  margin-left: 20px;
+  font-weight: 300;
+  color: #666;
+  font-family: Roboto,sans-serif; }
+
 h3 {
   font-weight: 500;
   color: #3c5f75;
@@ -363,6 +383,9 @@ h3 {
   .btn-orange:hover {
     background-color: #FF8738;
     color: #fff; }
+  .btn-orange.btn-nr-lg {
+    border-radius: 0px;
+    font-size: 20px; }
 
 .video-container {
   background-image: url(//www.mail-list.com/wp-content/plugins/thrive-visual-editor/editor/css/images/rv_style_white_tablet_full.png);
@@ -403,6 +426,34 @@ h3 {
   background: #eaeaea; }
   .section-gray h3 {
     color: #666; }
+
+.client-says .speech-conatiner {
+  background: #4e7ac7;
+  width: calc(100% - 21px);
+  padding: 40px; }
+  .client-says .speech-conatiner p {
+    color: #fff;
+    margin-bottom: 0px; }
+.client-says .tve_right {
+  display: block;
+  height: 19px;
+  width: 21px; }
+  .client-says .tve_right.blue {
+    background: url(/images/qc_r_blue.png) no-repeat center top; }
+.client-says .client-img img {
+  border-radius: 100px !important;
+  display: block;
+  max-height: 104px;
+  margin: 0 auto;
+  max-width: 104px;
+  border: 2px solid #4E7AC7; }
+.client-says .quote_left {
+  float: left;
+  display: block;
+  height: 19px;
+  margin-right: 20px;
+  width: 27px;
+  background: url(/images/q_l_blue.png) no-repeat; }
 
 /*****************
 FOOTER
@@ -446,6 +497,42 @@ footer {
     font-size: 15px;
     color: #aaa;
     margin-bottom: 0px; }
+
+ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+  list-style-type: none; }
+
+#TableOfContents ul {
+  list-style-type: none !important; }
+
+#TableOfContents ~ h3 {
+  font-size: 1em !important;
+  font-weight: 300 !important; }
+
+pre {
+  font-family: 'Roboto',sans-serif;
+  background: #f2f0f0;
+  border-color: #ebebeb #ebebeb #ebebeb #c9dbef;
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+  overflow: auto;
+  padding: 20px 25px;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+.panel-primary {
+  border-color: #4E7AC7; }
+  .panel-primary > .panel-heading {
+    color: #ffffff;
+    background-color: #4E7AC7;
+    border-color: #4E7AC7;
+    text-transform: none; }
+    .panel-primary > .panel-heading .panel-title {
+      font-weight: 500;
+      font-size: 1.2em; }
 
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE

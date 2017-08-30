@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+<div class="wrapper">
+    <div id="all">		
+		{{ partial "header.html" . }}
+		{{ partial "service-need-replace.html" . }}
+		{{ partial "clients-says.html" . }}
+		{{ partial "service-include-really-big.html" . }}
+		{{ partial "clients-says-deb.html" . }}
+		{{ partial "service-members-directly.html" . }}
+	
+		
+		
+		{{ .Content }}
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+</div>
+  </body>
+</html>

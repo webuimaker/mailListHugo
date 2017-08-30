@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+<div class="wrapper">
+    <div id="all">
+		{{ partial "header.html" . }}
+		 <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                          {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+</div>
+  </body>
+</html>
+

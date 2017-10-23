@@ -7,19 +7,20 @@
 <div class="wrapper">
     <div id="all">		
 		{{ partial "header.html" . }}
-		{{ partial "service-need-replace.html" . }}
-		{{ partial "clients-says.html" . }}
+		<!--{{ partial "service-need-replace.html" . }}
+			{{ partial "clients-says.html" . }}
 		{{ partial "service-include-really-big.html" . }}
 		{{ partial "clients-says-deb.html" . }}
 		{{ partial "service-members-directly.html" . }}
-	
-		
-		
 		{{ .Content }}
+		-->
+		{{ partial "services.html" . }}
+		
     </div>
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
 </div>
+{{ partial "footer.html" . }}
   </body>
 </html>

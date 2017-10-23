@@ -1,0 +1,15 @@
+weight: 2
+listContent: 1
+pageHeading: "Guaranteed delivery into your member's Inbox"
+subHeading: "Here's how we do it."
+listPageHeading: "Are you tired of all those nuisance support issues you have?"
+list: >
+  <ul class="plus-blue-list">
+    <li>We specialize in hosting for Email Discussion Groups, which gives us a <a class="" href="https://www.mail-list.com/reputation-score/">great reputation at the ISP's</a>. If you use the same places that send marketing spam, your emails will get marked as spam too.</li>
+    <li>Even if an email is first blocked as spam, we get around it with an <a class="" href="http://bounce-re-delivery-system.com/">&#65279;independent system that sends the email out in a different format&#65279;</a>. 100% automatically</li>
+    <li><a class="" href="https://www.mail-list.com/inbox-monitoring/">&#65279;Monitor your email delivery into the Inbox&#65279;</a> at the leading ISP's in real time</li>
+    <li>You can see the &#65279;<a class="" href="http://help.mail-list.com/m/59114/l/558224-how-do-i-get-mail-delivery-logs-for-a-subscriber">delivery logs</a>&#65279; for any message with our easy to use web interface.</li>
+    <li>Our short term web archive stores all your messages for emergencies</li>
+  </ul>
+image: "/images/inbox-monitor.png"
+rightImageHeading: "Monitor delivery into the inbox in real time at the largest ISP's"

@@ -1,0 +1,13 @@
+weight: 4
+listContent: 1
+pageHeading: "Include really big file attachments"
+subHeading: "PDF's, MS Word documents, Excel spreadsheets, photos, graphics, etc."
+list: >
+  <ul class="plus-blue-list">
+    <li>Use our <a href="https://www.mail-list.com/clickable-attachments/">Clickable Attachments</a> and bypass the spam filters</li>
+    <li>Unclog your subscriber's inbox, by allowing them to choose which attachments they want</li>
+    <li>Get a report on how many times an attachments was download</li><li style="" class="">If attachments is too big for ISP's, we automatically convert it to a clickable link</li>
+    <li>No need to upload documents to a separate folder, like Yahoo Groups</li><li style="" class="">We check all your attachments agains two different virus checkers</li>
+  </ul>
+image: "/images/attachments-report.png"
+rightImageHeading: "The Clickable Attachments option also lets you see how many people are actually downloading the attachments, so you can know what is hot."

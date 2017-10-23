@@ -1,0 +1,12 @@
+weight: 1
+pageHeading: "Need to replace your listserv hosting provider?"
+listPageHeading: "Are you tired of all those nuisance support issues you have?"
+list: >
+  <ul class="warning-list">
+    <li>Emails Being Blocked Or Tagged As Spam?</li>
+    <li>System Is Not User Friendly (Especially for your more senior members)?</li>
+    <li>Administration Is Difficult, And You Are Overwhelmed?</li>
+    <li>Support For Attachments Is A Pain</li>
+    <li>People Keep Asking The Same Questions (Because you don't have a searchable archive)?</li>
+  </ul>
+video: "/video/service.mp4"

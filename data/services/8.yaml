@@ -1,0 +1,19 @@
+weight: 8
+listContent: 1
+pageHeading: "Combat information overload"
+subHeading: "Optional Digest For Members"
+list: >
+  <ul class="plus-blue-list mb30">
+    <li>All messages sent either daily or weekly in one email</li>
+    <li>Organized by topic, so you can easily ignore threads</li>
+    <li>Gravatar photos of all senders displayed, so you can place the name with a face</li>
+    <li>Links to easily reply to the sender or the list for any message</li>
+  </ul>
+  <p class="bold_text"><strong>Optional Digest For Members</strong></p>
+  <ul class="plus-blue-list mb30">
+    <li>Allow members to <a href="https://www.mail-list.com/crowdsource-a-knowledge-base/">categorize and "Like"</a> every email</li>
+    <li>Automatically build a web page of the best posts in each category</li>
+    <li>Allow non members to keep up without needing to be on the mailing list</li>
+  </ul>
+image: "/images/digest.png"
+rightImageHeading: "The Digest is sent out at midnight, and contains all of the messages from that day. Messages are grouped by topic, and their Gravatar icon is shown when available."

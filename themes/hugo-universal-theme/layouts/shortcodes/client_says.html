@@ -1,0 +1,22 @@
+<div class="container-fluid sectionSpace client-says {{ if .Get "section-color"}}{{ .Get "section-color"}}{{ end }} {{ if .Get "speech-conatiner-color"}}{{ .Get "speech-conatiner-color"}}{{ end }} ">
+	<div class="container">
+		<div class="row">
+			<h3 style="" class="text-center">Our Clients Say...</h3>
+			<div class="col-md-9 col-md-offset-1" >
+				<span class="pull-right tve_right"></span>
+				<div class="speech-conatiner ">
+					<span class="quote_left"></span>
+					 {{ .Inner }}
+				</div>
+			</div>
+			<div class="col-md-2 text-center">
+				<div class="tve_ts_o">
+					<div  class="client-img"> 
+						<img src="{{ if .Get "image-url"}}{{ .Get "image-url"}}{{ end }}" alt="" class="img-responsive">
+					</div> 
+					<span class=""> <strong>{{ if .Get "client-name"}}{{ .Get "client-name"}}{{ end }}</strong> {{ if .Get "client-info"}}{{ .Get "client-info"}}{{ end }}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

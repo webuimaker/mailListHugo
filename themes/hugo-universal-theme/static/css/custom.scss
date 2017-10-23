@@ -476,26 +476,27 @@ h3{
 		color:#666;
 	}
 }
-
+.bold_text{
+	font-weight:bold;
+}
 .client-says{
 	.speech-conatiner{
-		background:#4e7ac7;
+		
 		width: calc(100% - 21px);		
 		padding:40px;
 		p{
 			color:#fff;
-			margin-bottom:0px;
+			margin-bottom:30px;
+			
+			&:last-child{
+				margin-bottom:0px;
+			}
 		}
 	}
 	.tve_right{
 		display: block;
 		height: 19px;
 		width: 21px;
-		
-		&.blue{
-			background: url(/images/qc_r_blue.png ) no-repeat center top;
-			
-		}
 	}
 	.client-img{
 		img{
@@ -504,7 +505,17 @@ h3{
 			max-height: 104px;
 			margin: 0 auto;
 			max-width: 104px;
-			border:2px solid #4E7AC7;
+		}
+	}
+	.tve_ts_o{
+		span{
+			color:#666;
+			font-weight:normal;
+			font-size:90%;
+			strong{
+				font-size:100%; 
+				display:block;
+			}
 		}
 	}
 	.quote_left{
@@ -513,7 +524,55 @@ h3{
 		height: 19px;
 		margin-right: 20px;
 		width: 27px;
-		background: url(/images/q_l_blue.png ) no-repeat;
+	}
+	
+	&.blue{
+		.speech-conatiner{
+			background:#4e7ac7;
+		}
+		.tve_right{
+			background: url(/images/qc_r_blue.png ) no-repeat center top;
+		}
+		.client-img{
+			img{
+				border:2px solid #4E7AC7;
+			}
+		}
+		.quote_left{
+			background: url(/images/q_l_blue.png ) no-repeat;
+		}
+	}
+	&.purple{
+		.speech-conatiner{
+			background:#9768D1;
+		}
+		.tve_right{
+			background: url(/images/qc_r_purple.png) no-repeat center top;
+		}
+		.client-img{
+			img{
+				border:2px solid #9768D1;
+			}
+		}
+		.quote_left{
+			background: url(/images/q_l_purple.png ) no-repeat;
+		}
+	}
+	&.red{
+		.speech-conatiner{
+			background:#E5372B;
+		}
+		.tve_right{
+			background: url(/images/qc_r_red.png) no-repeat center top;
+		}
+		.client-img{
+			img{
+				border:2px solid #E5372B;
+			}
+		}
+		.quote_left{
+			background: url(/images/q_l_red.png ) no-repeat;
+		}
 	}
 	
 }

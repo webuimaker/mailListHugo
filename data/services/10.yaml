@@ -1,0 +1,17 @@
+weight: 10
+listContent: 1
+pageHeading: "Optional 'mobile first' formatting"
+subHeading: "Make it easy for your members on the go to participate"
+list: >
+  <ul class="plus-blue-list mb30">
+    <li>Plain text email for human conversations</li>
+    <li>Just words, no logos, no graphics, no colors, no big bold fonts, no italics</li>
+    <li>We convert all HTML email to plain text, so there are no formatting glitches and no need to scroll sideways or pinch and zoom</li>
+    <li>Easy to reply to plain text email, so you can keep the conversation going</li>
+    <li>Better deliverability to the inbox with plain text email, rather than HTML email</li>
+    <li>Can't track plain text email, so your members have their privacy</li>
+    <li>Plain text email will never infect your computer with a virus</li>
+    <li>Add phone numbers to your list, and they will get the message as a SMS/MMS Text Message</li>
+  </ul>
+image: "/images/smartphones.jpg"
+rightImageHeading: "More than 17% of the Dietetics in Health Care Communities messages came from their smartphones in August 2015. Many groups have even higher percentages."

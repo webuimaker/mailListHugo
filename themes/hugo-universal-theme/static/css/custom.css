@@ -427,33 +427,64 @@ h3 {
   .section-gray h3 {
     color: #666; }
 
+.bold_text {
+  font-weight: bold; }
+
 .client-says .speech-conatiner {
-  background: #4e7ac7;
   width: calc(100% - 21px);
   padding: 40px; }
   .client-says .speech-conatiner p {
     color: #fff;
-    margin-bottom: 0px; }
+    margin-bottom: 30px; }
+    .client-says .speech-conatiner p:last-child {
+      margin-bottom: 0px; }
 .client-says .tve_right {
   display: block;
   height: 19px;
   width: 21px; }
-  .client-says .tve_right.blue {
-    background: url(/images/qc_r_blue.png) no-repeat center top; }
 .client-says .client-img img {
   border-radius: 100px !important;
   display: block;
   max-height: 104px;
   margin: 0 auto;
-  max-width: 104px;
-  border: 2px solid #4E7AC7; }
+  max-width: 104px; }
+.client-says .tve_ts_o span {
+  color: #666;
+  font-weight: normal;
+  font-size: 90%; }
+  .client-says .tve_ts_o span strong {
+    font-size: 100%;
+    display: block; }
 .client-says .quote_left {
   float: left;
   display: block;
   height: 19px;
   margin-right: 20px;
-  width: 27px;
+  width: 27px; }
+.client-says.blue .speech-conatiner {
+  background: #4e7ac7; }
+.client-says.blue .tve_right {
+  background: url(/images/qc_r_blue.png) no-repeat center top; }
+.client-says.blue .client-img img {
+  border: 2px solid #4E7AC7; }
+.client-says.blue .quote_left {
   background: url(/images/q_l_blue.png) no-repeat; }
+.client-says.purple .speech-conatiner {
+  background: #9768D1; }
+.client-says.purple .tve_right {
+  background: url(/images/qc_r_purple.png) no-repeat center top; }
+.client-says.purple .client-img img {
+  border: 2px solid #9768D1; }
+.client-says.purple .quote_left {
+  background: url(/images/q_l_purple.png) no-repeat; }
+.client-says.red .speech-conatiner {
+  background: #E5372B; }
+.client-says.red .tve_right {
+  background: url(/images/qc_r_red.png) no-repeat center top; }
+.client-says.red .client-img img {
+  border: 2px solid #E5372B; }
+.client-says.red .quote_left {
+  background: url(/images/q_l_red.png) no-repeat; }
 
 /*****************
 FOOTER

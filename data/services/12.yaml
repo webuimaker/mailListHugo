@@ -1,0 +1,14 @@
+weight: 12
+listContent: 1
+pageHeading: "Unlimited Number Of Lists"
+subHeading: "Create and delete lists as you need them, at any time"
+list: >
+  <ul class="plus-blue-list mb30">
+    <li>Each member can be on one, some or all of your lists</li>
+    <li>Customize your first list, and then CLONE it to create your second list, third list, etc.</li>
+    <li>Send one command to add or remove somebody from all of your lists</li>
+  </ul>
+image: "/images/listserv-hosting-tag-cloud.png"
+rightImageHeading: "Tag Cloud of Most Discussed Topics in the CNS-Listserv More than 75% of CNS-Listserv has posted at least one message between 2006 and 2015. The average time for first reply was 69 minutes, and the shortest time for a reply was 3 minutes."
+buttonURL: "#"
+buttonText: "See Plans & Pricing"

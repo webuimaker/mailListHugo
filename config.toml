@@ -26,12 +26,12 @@ paginate = 10
 		parent = ""
 		identifier = "Services"
 		weight =2
-		url = "#"
+		url = "/Services/"
 	[[menu.main]]
 		name = "Compare"
 		weight = 3
 		identifier = "Compare"
-		url = "Compare.html"	
+		url = "#"	
 	[[menu.main]]
 		name = "Pricing"
 		parent = ""

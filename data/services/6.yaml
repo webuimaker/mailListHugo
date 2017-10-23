@@ -1,0 +1,14 @@
+weight: 6
+listContent: 1
+pageHeading: "Put your members directly on your list"
+subHeading: "With our listserv hosting, no need to reply to a confusing invitation or set up a special account"
+list: >
+  <ul class="plus-blue-list mb30">
+    <li>Copy and paste their email addresses and put them directly on your list</li>
+    <li>Or send them an invitation if you are not sure if they want on your list</li>
+    <li>Compare your database against who is on the list, on the digest, and on vacation</li>    
+  </ul>
+image: "/images/add-subscribers.png"
+rightImageHeading: "Use our web interface to copy and paste your list of subscribers."
+buttonURL: "#"
+buttonText: "See Plans & Pricing"

@@ -1,0 +1,75 @@
+ {{ range $index, $element := sort .Site.Data.services "weight" }}
+			{{ if eq $element.weight 1  }}
+				<div class="container-fluid sectionSpace" style="padding-bottom:0px;">
+					<div class="container">
+						<div class="row">
+							<h1 class="text-center">{{ $element.pageHeading }}</h1>
+							<div class="col-md-6 col-sm-12">
+								<h3 style="margin-top: 35px ! important;" class="">{{ $element.listPageHeading }}</h3>
+								{{ $element.list | markdownify }}
+							</div>
+							<div class="col-md-6 col-sm-12">			
+								<video width="100%" height="auto" controls>
+									<source src="{{ $element.video }}" type="video/mp4" >
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+			{{ end }}
+			
+			{{ if eq $element.listContent 1  }}
+				<div class="container-fluid sectionSpace" {{ if eq $element.weight 2  }} style="padding-top:0px;" {{end}} >
+					<div class="container">
+						<div class="row">
+							{{ if eq $element.weight 2  }}<p class="col-md-12" ><strong>Here's how you can get your time and sanity back.</strong></p>{{end}}
+							<div class="col-md-8 col-sm-12">
+								<h3 style="margin-top: 0px ! important;" class="">{{ $element.pageHeading }}</h3>
+								<p style="" class="bold_text"><strong>{{ $element.subHeading }}</strong></p>
+								{{ $element.list | markdownify }}
+								<div class="clearfix"></div>
+								{{ if $element.buttonText  }}<a href="{{ $element.buttonURL }}" class="btn-orange mt20 btn-nr-lg">{{ $element.buttonText }}</a>{{ end }}
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<p style="font-size: 14px;">{{ $element.rightImageHeading }} </p>				
+								<div> 
+									<span class="tve_image_frame"> 
+										<img alt="monitor delivery for your listserv" src="{{ $element.image }}" class="img-responsive" > 
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			{{ end }}
+			
+			{{ if eq $element.clientContent 1  }}
+				<div class="container-fluid sectionSpace client-says section-gray {{ $element.color }}">
+					<div class="container">
+						<div class="row">
+							<h3 style="" class="text-center">Our Clients Say...</h3>
+							<div class="col-md-9 col-md-offset-1" >
+								<span class="pull-right tve_right"></span>
+								<div class="speech-conatiner">
+									<span class="quote_left"></span>
+									<p>{{ $element.speech | markdownify }} </p>
+									
+								</div>
+							</div>
+							<div class="col-md-2 text-center">
+								<div class="tve_ts_o">
+									<div  class="client-img"> 
+										<img src="{{ $element.image }}" alt="" class="img-responsive">
+									</div> 
+									<span class=""> <strong>{{ $element.clientName }}</strong> {{ $element.clientInfo }}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			{{ end }}
+			
+			
+		
+    {{ end }}
+		

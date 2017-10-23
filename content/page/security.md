@@ -40,15 +40,11 @@ Make Use Bounce Re-Delivery System = No in the Reports Section
 
 # Inbox Monitoring System
 
-<div class="thrv_paste_content thrv_wrapper tve_empty_dropzone" style="">
-
 We can [monitor the delivery](http://help.mail-list.com/m/59124/l/558342) of your emails into the inbox at the large ISP’s. To accomplish this, we send your emails to our special accounts at these ISP’s, so turn this option off to stop your emails from going there.
 
 The Monitor ISPs If Your Message Is In Their Inbox option is on by default and can be turned off.
 
 Make Monitor ISPs If Your Message Is In Their Inbox = No
-
-</div>
 
 # Clickable Attachments
 
@@ -58,7 +54,7 @@ When this option is turned on, any attachments are removed from the emails and s
 
 ​In addition, there is an option (Make Attachment Filename Unguessable) to make the URL of these attachments a long random string, that is unguessable.
 
-<span class="screen-reader-text">About WordPress</span>
+
 
 # Disappearing Ink
 

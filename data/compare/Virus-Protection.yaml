@@ -1,0 +1,7 @@
+weight: 4
+service: "Virus Protection"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-check'></i>"
+YahooGroups: "<i class='fa fa-check'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Mail-List.com runs all emails and attachments through 2 virus protection programs. Clam-AV and Sophos to make doubly sure that nobody on your list gets a virus.</p>"

@@ -1,0 +1,7 @@
+weight: 11
+service: "No Tracking Of Subscribers"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google and Yahoo’s real customers are the advertisers, and these companies slice and dice every bit of data they can find on you, and your list members, and give it to the advertisers.</p><p>Mail-List.com does not share your subscriber’s email address with anybody, does not harvest any usage data, does not do anything except deliver your emails to your subscribers. The only money that Mail-List.com makes is the service fee that list owners pay.</p>"

@@ -1,0 +1,6 @@
+weight: 22
+service: "Eliminate Duplicate Emails on Reply All"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"

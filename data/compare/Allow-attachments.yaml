@@ -1,0 +1,7 @@
+weight: 5
+service: "Allow Attachments"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-check'></i>"
+YahooGroups: "<i class='fa fa-check'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google, Yahoo and Mail-List.com all allow attachments to be included in your emails.</p><p>Mail-List.com has an additional option that will keep the attachment on our server, and insert a clickable link into the email. This keeps the message to the list small, and gets past the spam filters. Those subscribers that want the attachment, click to download it.</p>"

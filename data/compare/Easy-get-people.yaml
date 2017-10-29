@@ -1,0 +1,7 @@
+weight: 6
+service: "Easy To Get People On List"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>You can invite members to join your list at Google and Yahoo. They must respond to that email request. If they don’t recognize or understand the email invitation, you can not put them on the list. A typical opt-in rate for email invitations is 25%.</p><p>Google removed the option to “Add members directly” in August of 2011.</p><p>Mail-List.com allows you to cut and paste the email addresses of your group, and put everybody on your list without any confirmation process.</p>"

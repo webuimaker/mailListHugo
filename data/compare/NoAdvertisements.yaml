@@ -1,0 +1,7 @@
+weight: 10
+service: "No Advertisements"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google and Yahoo both include prominent ads in almost every email. The ads tend to be ugly and distracting, and some of your subscribers may even think your organization is endorsing the products being advertised</p><p>Mail-List.com does not insert any ads into your messages. In fact, it snips ads sent in by your subscribers at AOL and Hotmail when they post a message.</p><p>So your members can enjoy their conversations without distracting commercials.</p>"

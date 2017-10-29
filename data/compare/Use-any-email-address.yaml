@@ -1,0 +1,7 @@
+weight: 7
+service: "Use Any Email Address"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>You need a Google Account to create a group or post comments in the Google Groups service. Everybody needs a Google account, or the group will be public.</p><p>Yahoo requires a Yahoo account in order to modify any list preferences.</p><p>Mail-List.com does not care what email address your members use. So your members can join your discussion group from their primary email address, and participate all day long. No need for them to have to remember to go login to some account they rarely use.</p>"

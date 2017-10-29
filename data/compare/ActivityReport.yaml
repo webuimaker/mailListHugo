@@ -1,0 +1,7 @@
+weight: 14
+service: "Activity Report"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>See who your top posters are, what the most popular discussions are, who has not posted in a while, what percentage of people are sending in from their smartphone, etc.</p><p> <a href='#'>See an example report</a></p><p>The knowledge you gain from this data will allow you to make the right decisions on running your group.</p>"

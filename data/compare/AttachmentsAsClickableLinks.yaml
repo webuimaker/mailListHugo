@@ -1,0 +1,7 @@
+weight: 17
+service: "Attachments As Clickable Links"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"
+toolip: "<p>Getting attachment files through the spam filters of every single member in your group is a real challenge, and it’s very frustrating and time consuming when your members report missing emails.</p><p> Mail-List.com gets your group’s attachments past the spam filters, by sending a short email, with a link to the attachment. Those members that want that particular attachment, simply click on the link to download the file.</p><p>The short plain text email does not trigger alarms like big files do. And your members do not waste bandwidth on files they did not want anyway.</p><p><a href='https://www.mail-list.com/clickable-attachments/' target='_blank'>Learn more</a></p>"

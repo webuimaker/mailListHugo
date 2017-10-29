@@ -38,7 +38,8 @@
     <link href="{{ .Site.BaseURL }}css/style.default.css" rel="stylesheet" id="theme-stylesheet">
   {{ end }}
 
-
+	<!-- ...or load the CSS file from jsdelivr.net CDN -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/zebra_tooltips.min.css">
   <!-- Custom stylesheet - for your changes -->
   <link href="{{ .Site.BaseURL }}css/custom.css" rel="stylesheet">
 
@@ -65,6 +66,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ .URL }}/" />
   <meta property="og:image" content="{{ .Site.Params.logo }}" />
+  <script>
+	
+  </script>
 
 </head>
 

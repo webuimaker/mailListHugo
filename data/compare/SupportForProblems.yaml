@@ -1,0 +1,7 @@
+weight: 13
+service: "Support For Problems"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google and Yahoo both have open forums where other list owners try to help each other. Neither company has an official help desk where you submit a problem and expect to have it solved.</p><p>Mail-List.com has a help desk staffed with real people that will solve your problem within one hour during normal business hours.</p><p>So you can turn any problems over to Mail-List.com and get back to your real job.</p>"

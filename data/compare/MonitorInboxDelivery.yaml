@@ -1,0 +1,8 @@
+weight: 20
+service: "Monitor Inbox Delivery"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"
+toolip: "<p>Sending email is one things, getting it delivered into the inbox of all of your subscribers is another thing entirely. Mail-List.com is the only service that tracks the delivery of the email into the inbox at the large ISP’s. And shows everybody the results.</p><p>Mail-List.com is the only service that will guarantee to delivery all of your emails into your member’s inbox.</p><p>And that will make your job easy, not having to deal with delivery headaches.</p><p>
+<a href='https://www.mail-list.com/inbox-monitoring'>https://www.mail-list.com/inbox-monitoring</a></p>"

@@ -1,0 +1,7 @@
+weight: 21
+service: "Resend Messages Rejected as Spam"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"
+toolip: "<p>When an ISP rejects your message as spam, we resend another email to your subscriber. We tell them what happened, and point them to your message on our web server, so they can read it there.</p><p>This allows your members to be aware when their ISP is causing problems, gives them the data they need to file a trouble ticket.</p><p><a href='http://bounce-re-delivery-system.com'>http://bounce-re-delivery-system.com</a></p>"

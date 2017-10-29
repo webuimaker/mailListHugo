@@ -1,0 +1,7 @@
+weight: 16
+service: "SMS/MMS Text Messages To Phone"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"
+toolip: "<p>Add your member’s phone number to your list, and they will receive the messages as a Text Message on their phone.</p><p>They can reply and have it go back to your list.</p><p>So if you have younger people in your group, that pay more attention to text messages than email, you can keep them participating too.</p>"

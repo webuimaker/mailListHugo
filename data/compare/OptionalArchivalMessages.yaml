@@ -1,0 +1,7 @@
+weight: 9
+service: "Optional Archival Of Messages"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google and Yahoo both post all messages on their web sites, and feed the contents into their search engine.</p><p>Not everybody wants to have their messages posted on the web and indexed by the search engine for posterity.</p><p>Mail-List.com provides an optional web archive of messages sent to your mailing list.</p><p>Mail-List.com does not put your messages into any of the public search engines, so you can keep your conversations private.</p>"

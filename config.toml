@@ -31,12 +31,12 @@ paginate = 10
 		name = "Compare"
 		weight = 3
 		identifier = "Compare"
-		url = "#"	
+		url = "/compare/"	
 	[[menu.main]]
 		name = "Pricing"
 		parent = ""
 		weight = 4
-		url = "Pricing"
+		url = "/pricing/"
 	[[menu.main]]
 		name = "About"
 		parent = ""

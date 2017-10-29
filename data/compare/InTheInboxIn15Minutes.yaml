@@ -1,0 +1,10 @@
+weight: 8
+service: "In The Inbox In 15 Minutes"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Google and Yahoo delivery times vary widely, and their delivery statistics are kept secret.</p><p>9/2/2011 – @dormant tweets – okay google groups. why you delay my mail 10+ hours? I don’t want to run my own mailing lists again.</p><p>Mail-List.com is consistent, transparent and shows their delivery times in public at <a href='http://inbox-monitor.com/perl/summary?today' target='_blank'>Inbox-Monitor</a>.</p><p>This allows your group to have a quick turnaround on all questions to your mailing list, and get the answers quickly.</p>"
+
+
+

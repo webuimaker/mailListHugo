@@ -1,0 +1,7 @@
+weight: 3
+service: "Bandwidth Charge"
+MailList: "Free"
+GoogleGroups: "Free"
+YahooGroups: "Free"
+LsoftListserv: "$0.0025 per message"
+toolip: "<p>This is an extra charge for each message that is sent to all members of your group. So one message to 1,000 members means that you are being charged for 1,000 messages.</p><p>These charges can add up fast and you certainly don’t want to discourage people from participating in your community, but the taxi meter is running with every message sent, even short messages.</p><p>Mail-List.com does not charge for bandwidth, does not count the number of messages you send, and does not limit you on the size of attachments, so you know exactly how much your costs are at the beginning of using our service. There are no surprises on your invoice.</p>"

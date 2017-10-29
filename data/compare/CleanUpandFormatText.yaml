@@ -1,0 +1,7 @@
+weight: 19
+service: "Clean Up and Format Text"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-times'></i>"
+toolip: "<p>Formatting snafus, HTML snippets, top posting, ads and disclaimers are just some of the things that make for annoying emails.</p><p>Mail-List.com is the only service that strips each email down to just the words they person typed, and removes ads, disclaimers, top posting and formats the message into a tight readable post.</p><p>So your members just get the good content, and don’t have to ignore all the garbage that is sent with replies. This is especially useful on smartphones, where the small screen sizes make it time consuming to scan.</p>"

@@ -1,0 +1,7 @@
+weight: 15
+service: "ImportExport Archives"
+MailList: "<i class='fa fa-check'></i>"
+GoogleGroups: "<i class='fa fa-times'></i>"
+YahooGroups: "<i class='fa fa-times'></i>"
+LsoftListserv: "<i class='fa fa-check'></i>"
+toolip: "<p>Your past messages are an important knowledge base and history of your online community.</p><p>Google and Yahoo Groups do not allow you to import nor export your group history from their services.</p><p>Mail-List.com allows you to migrate your history of conversations into or out of our service. So you keep those important documents with you where ever you go.</p>"

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+<div class="wrapper">
+    <div id="all">		
+		{{ partial "header.html" . }}
+		<!--{{ partial "service-need-replace.html" . }}
+			{{ partial "clients-says.html" . }}
+		{{ partial "service-include-really-big.html" . }}
+		{{ partial "clients-says-deb.html" . }}
+		{{ partial "service-members-directly.html" . }}
+		{{ .Content }}
+		-->
+		<div class="container-fluid sectionSpace" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-center"> Features and Benefits at Leading Listservs </h1>
+						{{ .Content }}
+						<div class="table-responsive compare-table">
+						<table class="table table-hover table-bordered text-center ">
+							
+							<thead >
+								<tr>
+									<th class="text-center">
+									</th>
+									<th class="text-center editor_selected_col">
+										Mail-List.com
+									</th>
+									<th class="text-center">
+										Google Groups
+									</th>
+									<th class="text-center">
+										Yahoo Groups
+									</th>
+									<th class="text-center">
+										Lsoft Listserv
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								 {{ range $index, $element := sort .Site.Data.compare "weight" }}
+								<tr>
+									<td >
+										<span {{ if $element.toolip  }} class="zebra_tips1" title="{{ $element.toolip  }}" {{ end }}>{{ $element.service | markdownify }} </span>
+									</td>
+									<td class="editor_selected_col">
+										{{ $element.MailList  | markdownify}}
+									</td>
+									<td>
+										{{ $element.GoogleGroups | markdownify }}
+									</td>
+									<td>
+										{{ $element.YahooGroups | markdownify }}
+									</td>
+									<td>
+										{{ $element.LsoftListserv | markdownify }}
+									</td>
+								</tr>
+								{{ end }}
+							</tbody>
+						</table>
+					</div>
+					
+							
+					 
+						<h3>Want to learn more about the services provided by Mail-list.com? Call us at 713-520-4500.</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+</div>
+{{ partial "footer.html" . }}
+  </body>
+</html>

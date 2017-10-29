@@ -677,6 +677,107 @@ pre {
 	}
 }
 
+.hover{background-color: #f5f5f5;}
+.compare-table {
+  overflow: hidden;
+   table{
+	margin-bottom:0px;
+   }
+}
+
+.compare-table td, .compare-table th {
+  padding: 10px;
+  position: relative;
+  outline: 0;
+}
+
+body:not(.nohover) tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.compare-table td:hover::after, .compare-table thead th:not(:empty):hover::after, .compare-table td:focus::after, .compare-table thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.compare-table td:hover::after, .compare-table th:hover::after {
+  background-color: #f5f5f5;
+}
+
+.compare-table  td:focus::after, .compare-table th:focus::after {
+  background-color: lightblue;
+}
+
+/* Focus stuff for mobile */
+.compare-table td:focus::before, .compare-table tbody th:focus::before {
+  background-color: lightblue;
+  content: '';  
+  height: 100%;
+  top: 0;
+  left: -5000px;
+  position: absolute;  
+  width: 10000px;
+  z-index: -1;
+}
+
+
+
+.compare-table{
+	
+	thead{
+		th{
+			font-family: 'Roboto',sans-serif;
+			background: #24447b;
+			border-left: 3px solid #24447b;
+			border-right: 3px solid #24447b;
+			border-top: 3px solid #24447b;
+			color: #fff;
+			font-weight: 500;
+			font-size: 1.111em;
+			padding: 17px !important;
+			&.editor_selected_col {
+				background-color: #77B21D !important;
+				color: #fff !important;
+				border-left: 3px solid #77B21D;
+				border-right: 3px solid #77B21D;
+			}
+		}
+	}
+	tbody{
+		tr{		
+			td{
+				padding: 17px !important;
+				color:#666;
+				font-weight:300;
+				
+				&.editor_selected_col {
+					border-left: 3px solid #77B21D;
+					border-right: 3px solid #77B21D;
+				}
+				
+				.fa-check{
+					color:#06C29F;
+				}
+				.fa-times{
+					color:#c00
+				}
+			}
+			
+			&:last-child{
+				td.editor_selected_col{
+					border-bottom: 3px solid #77B21D;
+				}
+			}
+		}
+	}
+}
+
+
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				

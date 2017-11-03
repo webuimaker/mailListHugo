@@ -1,0 +1,9 @@
+<div class="panel {{ if .Get "panel-color"}} panel-{{ .Get "panel-color"}} {{ end }}">
+    <div class="panel-heading">
+        <h3 class="panel-title"> {{ if .Get "panelTitle"}}{{ .Get "panelTitle"}}{{ end }}</h3>
+    </div>
+    <div class="panel-body">
+			{{ .Inner }}
+	</div>
+</div>
+

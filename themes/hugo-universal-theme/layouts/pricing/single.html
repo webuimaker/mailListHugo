@@ -23,56 +23,61 @@
 						<h3 style="" class="text-center">No matter how many messages you send, or how big your attachments are</h3>
 						<h3 style="" class="text-center">If a person is on multiple lists, you only pay once</h3>
 						
+					<div class="row pricing-table">
 						
-						<h1>Pricing Table Space here</h1>
-					<!--	<div class="table-responsive compare-table">
-						<table class="table table-hover table-bordered text-center ">
-							
-							<thead >
-								<tr>
-									<th class="text-center">
-									</th>
-									<th class="text-center editor_selected_col">
-										Mail-List.com
-									</th>
-									<th class="text-center">
-										Google Groups
-									</th>
-									<th class="text-center">
-										Yahoo Groups
-									</th>
-									<th class="text-center">
-										Lsoft Listserv
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								 {{ range $index, $element := sort .Site.Data.compare "weight" }}
-								<tr>
-									<td >
-										<span {{ if $element.toolip  }} class="zebra_tips1" title="{{ $element.toolip  }}" {{ end }}>{{ $element.service | markdownify }} </span>
-									</td>
-									<td class="editor_selected_col">
-										{{ $element.MailList  | markdownify}}
-									</td>
-									<td>
-										{{ $element.GoogleGroups | markdownify }}
-									</td>
-									<td>
-										{{ $element.YahooGroups | markdownify }}
-									</td>
-									<td>
-										{{ $element.LsoftListserv | markdownify }}
-									</td>
-								</tr>
-								{{ end }}
-							</tbody>
-						</table>
+						 {{ range $index, $element := sort .Site.Data.pricing "weight" }}
+						<div class="col-md-4 col {{ if eq $element.weight 2  }} mid {{ end }}">
+							<div class="inner">
+								<div class="price-box">
+									<h2 class="heading">{{ $element.sectionTitle  | markdownify }}</h2>
+									<div class="mid-content">
+										<ul class="price-info">
+										 {{ $element.list | markdownify }}
+											
+										</ul>
+									</div>
+									<h3 class="price">$ {{ $element.price | markdownify }}<span> / member per year<br></span></h3>
+									<p><a href="https://database.mail-list.com/app/create-edg" class="btn-orange btn-block text-center"><span class="tve_btn_txt">TRY IT FREE</span></a></p>
+									
+									<p style="" class="noCredit">No credit card required.</p>
+									
+								</div>
+							</div>
+						</div>
+						{{ end }}
 					</div>
-					-->
+					
 					<h3 style="" class="text-center">Free 30 Day Trial, no credit card required.</h3>
 					<h4 style="" class="text-center">No Setup Fee, when you do it yourself</h4>
 						{{ .Content }}
+					
+					<div class="tryFree text-center mt50">
+						<h2>TRY IT FREE</h2>
+						<p>No Credit Card Required</p>
+						
+						<div class="tve_btn_cnt">
+							<div class="tve_arrow_left"></div>
+								<div style="margin-bottom: 40px ! important;" class="tve_btn"> 
+									<a class="tve_btnLink btn btn-orange" href="https://database.mail-list.com/app/create-edg"> <span class="">Try It Free</span> </a>
+								</div>
+								<div class="tve_arrow_right"></div>
+						</div>
+					
+					</div>
+					<div class="email-discussion-group">
+						<h2  class="text-center mb30">Our Email Discussion Group Clients Include</h2>
+						<ul class="groupclients">
+							{{ range $.Site.Data.emailgroup.emailgroupClient.listofclient }}
+							   <li> <img src="/images/clients/{{ . }}"  class="img-responsive" alt="{{ . }}"> </li>
+							{{ end }}
+						
+						
+						</ul>
+						
+					</div>
+					
+					
+						
 					</div>
 				</div>
 			</div>

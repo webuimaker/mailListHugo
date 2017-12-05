@@ -1,5 +1,5 @@
 ---
-author: itools
+author: "itools"
 date: 2010-11-01 19:06:22+00:00
 draft: false
 title: Formatting Plain Text Email

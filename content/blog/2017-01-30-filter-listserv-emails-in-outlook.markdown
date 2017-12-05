@@ -1,8 +1,7 @@
 ---
-author: Miranda
-date: 2017-01-30 18:40:14+00:00
+author: "Miranda"
 draft: false
-title: How to Group Your List Emails in Outlook
+title: "How to Group Your List Emails in Outlook"
 type: post
 banner: images/blog/CPgroupingemails3-1024x682.jpg
 url: /filter-listserv-emails-in-outlook/

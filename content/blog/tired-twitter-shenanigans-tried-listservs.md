@@ -3,7 +3,7 @@ authors: Miranda
 date: 2017-04-12 21:05:25+00:00
 draft: false
 title: Tired of Twitter Shenanigans? Have You Tried… Listservs?
-type: blog
+type: post
 banner: "images/blog/CPoldschool.jpg"
 url: /tired-twitter-shenanigans-tried-listservs/
 categories: ["test"]

@@ -1,12 +1,12 @@
 ---
-authors: Vivek
-date: 2017-02-06 18:40:53+00:00
+author: Miranda
+date: 2017-01-23 18:39:26+00:00
 draft: false
 title: The Solution to URLs so Long They Reach the Sky
-type: blog
-url: /long-url-solution/
+type: post
 banner: images/blog/CPlongURLs-1-1024x682.jpg
 categories: ["test"]
+url: /long-url-solution/
 ---
 
 Emails can have tons of problems. They can get caught in spam filters. Or get misformatted. Or possibly implode. (OK, maybe not.) But here's something you may or may not think of as a problem with email--really, really, really long URLs. Why is this a problem and what's your long URL solution? Well, read on.

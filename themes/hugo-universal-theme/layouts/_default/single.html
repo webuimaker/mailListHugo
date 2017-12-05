@@ -15,11 +15,22 @@
 
                     <!-- *** LEFT COLUMN *** -->
 
-                    <div class="col-md-12" id="blog-post">
+                    <div class="col-md-12 mt30" id="blog-post">
 						<!--
                         <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p> -->
+						<div class="mb20">
+                                  <div class="image">
+                                      
+                                          {{ if .Params.banner }}
+                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                                          {{ else }}
+                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                          {{ end }}
+                                  </div>
+                                </div>
 
                         <div id="post-content">
+							
                           {{ .Content }}
                         </div>
                         

@@ -735,6 +735,40 @@ h2 {
       margin-right: 0%; }
 
 /* email-discussion-group */
+/* Blog Post */
+.full-blog .post {
+  /*h2 */
+  /* meta */ }
+  .full-blog .post h2 {
+    font-size: 38px !important;
+    text-transform: none !important; }
+    .full-blog .post h2 a {
+      color: #3c5f75; }
+      .full-blog .post h2 a:hover {
+        color: #feb311 !important;
+        text-decoration: none; }
+  .full-blog .post .meta {
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    display: block;
+    padding: 20px 0px; }
+    .full-blog .post .meta li {
+      color: #d1d0d0;
+      display: block;
+      font-size: .833em;
+      float: left;
+      padding-right: 5px;
+      list-style: none;
+      font-weight: 300; }
+      .full-blog .post .meta li a {
+        color: #d1d0d0; }
+        .full-blog .post .meta li a:hover {
+          color: #feb311; }
+  .full-blog .post .read-more {
+    text-align: left !important; }
+    .full-blog .post .read-more a:hover {
+      color: #feb311; }
+
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				

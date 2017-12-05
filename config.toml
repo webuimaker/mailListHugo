@@ -12,6 +12,8 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
+
+
 [menu]
 
 # Main menu
@@ -110,7 +112,7 @@ paginate = 10
 		name = "Blog"
 		parent = ""
 		weight = 3
-		url = "#"
+		url = "/blog/"
 	[[menu.Footerabout]]
 		name = "News"
 		parent = ""
@@ -119,10 +121,12 @@ paginate = 10
 	
 
 [params]
-    viewMorePostLink = "/blog/"
-    author = ""
+    #viewMorePostLink = "/blog/:year/:month/:day/:filename/"	
+    #author = "mark00+"
     defaultKeywords = ["devows", "hugo", "go"]
     defaultDescription = "Site template made by  using hugo"
+	
+
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = " "
@@ -160,14 +164,16 @@ paginate = 10
     longitude = "-77.028333"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:filename/"
+
 
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    #categories = true
+    categories = true
     tags = true
     #search = false
+	authors = true
 
 [params.clients]
     enable = true

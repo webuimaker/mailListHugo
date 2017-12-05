@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+
+  <body>
+<div class="wrapper">
+    <div id="all">		
+		{{ partial "header.html" . }}
+			<div class="container">
+                <div class="row mt30">
+                    <!-- *** LEFT COLUMN *** -->
+                    <div class="col-md-12 full-blog" id="blog-listing-medium">
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+                        {{ range $paginator.Pages }}
+                        <section class="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <div class="image">
+                                      <a href="{{ .Permalink }}">
+                                          {{ if .Params.banner }}
+                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                                          {{ else }}
+                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                          {{ end }}
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 mt20">
+                                    <h2 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+										<ul class="meta">
+											<li>
+												{{ .Date.Format .Site.Params.date_format }}
+												<!-- <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> {{ .Date.Format .Site.Params.date_format }}</a> -->
+												
+											</li>
+											{{ if isset .Params "categories" }}
+											<li>
+												 / 
+													{{ if gt (len .Params.categories) 0 }}
+														in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+													{{ end }}
+												
+											</li>
+											{{ end }}
+											
+											
+											
+										
+											<li> / 
+										{{ if isset .Params "author" }}
+                                          {{ i18n "authorBy" }} <a href="{{ $.Site.BaseURL }}authors/{{ index .Params.author | urlize   }}/">{{ .Params.author }}</a>
+                                          {{ end }}
+										  </li>
+										 
+											<div class="clearfix"></div>
+										</ul>
+                                        </p>
+                                        
+                                    </div>
+                                    <p class="intro">{{ .Summary }}</p>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="">{{ i18n "continueReading" }}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        {{ end }}
+						
+
+						
+						
+
+                        <ul class="pager">
+                            {{ if .Paginator.HasPrev }}
+                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
+                            {{ else }}
+                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
+                            {{ end }}
+
+                            {{ if .Paginator.HasNext }}
+                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
+                            {{ else }}
+                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
+                            {{ end }}
+                        </ul>
+						
+						{{ range $name, $items := .Site.Params.author }}
+							{{ range $key, $val := $items }}
+								{{ if eq $key "name" }}
+									<li>
+										<a href="{{ .Site.BaseURL }}authors/{{ $val | urlize | lower }}"><i class="fa fa-user"></i> {{ $val }}
+										({{ len (where $.Site.Pages ".Params.author" $name) }})
+										</a>
+									</li>
+								{{ end }}
+							{{ end }}
+						{{ end }}
+						
+						{{ range $name, $items := .Site.Params.authors }}
+                {{ range $key, $val := $items }}
+                    {{ if eq $key "name" }}
+
+
+                        <li>
+                        <a href="/authors/{{ $val | urlize | lower }}"><i class="fa fa-user"></i> {{ $val }}
+
+                        ({{ len (where $.Site.Pages ".Params.author" $name) }})
+                        </a>
+                        </li>
+
+
+
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+						
+						{{ partial "widgets/authors.html" . }}
+						
+						
+						{{ partial "widgets/categories.html" . }}
+						
+						
+                    </div>
+                    <!-- /.col-md-9 -->
+
+                    <!-- *** LEFT COLUMN END *** -->
+
+                    <!-- *** RIGHT COLUMN ***
+       _________________________________________________________ -->
+						<!--
+                    <div class="col-md-3">
+						<p>sidebar</p> -->
+                        <!-- *** MENUS AND WIDGETS *** -->
+					<!--
+                        {{ partial "sidebar.html" . }}
+					-->
+                        <!-- *** MENUS AND FILTERS END *** -->
+					<!--
+                         </div>
+					-->
+                   
+                    <!-- /.col-md-3 -->
+
+                    <!-- *** RIGHT COLUMN END *** -->
+
+                </div>
+                <!-- /.row -->
+				</div>
+            </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+</div>
+{{ partial "footer.html" . }}
+  </body>
+</html>

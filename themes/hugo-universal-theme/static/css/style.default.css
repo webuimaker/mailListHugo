@@ -2127,6 +2127,7 @@ fieldset[disabled] .btn-template-primary.active {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  width:100%;
 }
 @media (max-width: 767px) {
   #blog-listing-medium .post .image img.img-responsive {

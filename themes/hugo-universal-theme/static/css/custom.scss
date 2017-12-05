@@ -911,6 +911,54 @@ h2{
 	}
 
 }/* email-discussion-group */
+/* Blog Post */
+.full-blog{
+	.post{
+		h2{
+			font-size: 38px !important;
+			text-transform: none !important;
+			a{
+				color:#3c5f75;
+				&:hover{
+					color:#feb311 !important;
+					text-decoration:none;
+				}
+			}
+		} /*h2 */
+		
+		.meta {
+			    border-bottom: 1px solid #e8e8e8;
+				margin-bottom: 20px;
+				display:block;
+				padding: 20px 0px;
+			li {
+				color: #d1d0d0;
+				display: block;
+				font-size: .833em;
+				float: left;
+				padding-right: 5px;
+				list-style:none;
+				font-weight:300;
+				
+				a{
+					color: #d1d0d0;
+					
+					&:hover{
+						    color: #feb311;
+					}
+				}
+			}
+		} /* meta */
+		.read-more{
+			text-align:left !important;
+			a{
+				&:hover{
+						    color: #feb311;
+					}
+			}
+		}
+	}
+}
 
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE

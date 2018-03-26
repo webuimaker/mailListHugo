@@ -5,5 +5,4 @@ type: videos
 url: /videos/
 ---
 
-# blog
-No Content Found
+

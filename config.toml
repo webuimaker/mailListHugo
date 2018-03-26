@@ -107,7 +107,7 @@ paginate = 10
 	[[menu.Footerabout]]
 		name = "Videos"
 		weight = 3
-		url = "#"
+		url = "/videos/"
 	[[menu.Footerabout]]
 		name = "Blog"
 		parent = ""

@@ -769,6 +769,60 @@ h2 {
     .full-blog .post .read-more a:hover {
       color: #feb311; }
 
+.side-video-list h2 {
+  font-size: 46px;
+  color: #3c5f75;
+  font-weight: 500; }
+.side-video-list ul.tve_ul6 {
+  margin-left: 20px;
+  line-height: 1.4em; }
+  .side-video-list ul.tve_ul6 li {
+    margin-bottom: 10px;
+    list-style-image: url(/img/ul6_f_red.png) !important;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 300; }
+    .side-video-list ul.tve_ul6 li a {
+      color: #0e92da;
+      clear: right; }
+      .side-video-list ul.tve_ul6 li a:hover {
+        color: #feb311;
+        text-decoration: none; }
+
+.video-list li {
+  list-style: none; }
+  .video-list li h3 {
+    font-weight: 500;
+    color: #3c5f75;
+    font-size: 1.5em;
+    margin: 22px 0 11px 0; }
+  .video-list li video {
+    border: 10px solid #f1f1f1;
+    padding: 0; }
+
+.bullet-list li {
+  list-style: none; }
+  .bullet-list li h3 {
+    font-weight: 500;
+    color: #3c5f75;
+    font-size: 1.5em;
+    margin: 22px 0 11px 0; }
+    .bullet-list li h3 a {
+      color: #0e92da; }
+      .bullet-list li h3 a:hover {
+        color: #feb311;
+        text-decoration: none; }
+  .bullet-list li ul {
+    line-height: 1.4em;
+    margin-left: 20px;
+    list-style-type: none; }
+    .bullet-list li ul li {
+      margin-bottom: 10px;
+      list-style-image: url(/img/ul2_f_red.png) !important;
+      padding-left: 15px;
+      position: relative;
+      font-weight: 300; }
+
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				

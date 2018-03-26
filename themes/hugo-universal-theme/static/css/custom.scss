@@ -959,7 +959,83 @@ h2{
 		}
 	}
 }
-
+.side-video-list{
+		h2{
+			font-size:46px;
+			color:#3c5f75;
+			font-weight:500;
+		}
+	ul.tve_ul6{
+		margin-left: 20px;
+		line-height: 1.4em;
+		li{
+			margin-bottom: 10px;
+			list-style-image: url(/img/ul6_f_red.png) !important;
+			padding-left: 15px;
+			position: relative;
+			font-weight:300;
+			
+			a{
+				color: #0e92da;
+				clear: right;
+				&:hover{
+					color: #feb311;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}
+.video-list{
+	li{
+		list-style:none;
+		h3{
+			font-weight: 500;
+			color: #3c5f75;
+			font-size: 1.5em;
+			margin: 22px 0 11px 0;
+		}
+		video{
+			
+			border: 10px solid #f1f1f1;
+			padding: 0;
+		}
+		
+		
+	}
+}
+.bullet-list{
+	li{
+		list-style:none;
+		h3{
+			font-weight: 500;
+			color: #3c5f75;
+			font-size: 1.5em;
+			margin: 22px 0 11px 0;
+			a{
+				color: #0e92da;
+				&:hover{
+					color: #feb311;
+					text-decoration:none;
+				}
+			}
+		}
+		
+		ul{
+			line-height: 1.4em;
+			margin-left: 20px;
+			list-style-type: none;
+			li{
+				    margin-bottom: 10px;
+					list-style-image: url(/img/ul2_f_red.png) !important;
+					padding-left: 15px;
+					position: relative;
+					font-weight: 300;
+			}
+		}
+	}
+	
+}
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
 				

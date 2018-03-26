@@ -1,0 +1,18 @@
+<h1 class="">How To Videos</h1>
+<p style=""><span class="bold_text">All videos under 1 minute</span></p>
+<div class="thrv_paste_content thrv_wrapper">
+	<p>Select the video below, that you want to see. Then click on the Play triangle in the middle of the video.</p>
+	<div class="thrv_wrapper">
+		<ul class="tve_ul6 ">
+			{{ range (where .Site.Pages "Layout" "videopage") }}
+			  <li>
+				<a href="{{ .URL }}">{{ .Title }}</a>								
+			  </li>
+			{{ end }}
+		</ul>
+		
+		
+		
+		
+	</div> 
+</div>

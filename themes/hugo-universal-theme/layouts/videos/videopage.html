@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
+  <body>
+	<div class="wrapper">
+		<div id="all">
+		{{ partial "header.html" . }}
+        <div id="content" class="container-fluid sectionSpace">           
+            <div class="container">
+                <div class="row">
+					<div class="col-md-4 thrv_paste_content thrv_wrapper side-video-list">	
+						{{ partial "videolist.html" .}}
+					</div>
+					<div class="col-md-8">
+						<!--<h4>{{ .Page.Title }}</h4>	-->
+						{{ with .Params.videolists }} 
+						<ul id="tags" class="video-list">
+							{{ range . }}
+							<li>
+								<h3>{{ .title }}</h3>
+								
+								<video width="100%" height="auto" controls poster="/images/eguy.jpg">
+									<source src="/video/{{ .videourl | urlize }}" type="video/mp4">
+								</video>							
+							</li>
+							{{ end }}
+							</ul>
+						{{ end }}
+						
+						
+						
+									
+							
+							
+						 {{ .Content }}
+					</div>
+				
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+            
+        </div>
+        <!-- /#content -->
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+	</div>
+  </body>
+</html>

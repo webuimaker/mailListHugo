@@ -4,9 +4,9 @@
 	<p>Select the video below, that you want to see. Then click on the Play triangle in the middle of the video.</p>
 	<div class="thrv_wrapper">
 		<ul class="tve_ul6 ">
-			{{ range (where .Site.Pages "Layout" "videopage") }}
+			{{ range (where .Site.Pages "Layout" "videopage").ByWeight }}
 			  <li>
-				<a href="{{ .URL }}">{{ .Title }}</a>								
+				<a href="{{ .URL }}">{{ with .Params }} {{.stitle}} {{end}} </a>								
 			  </li>
 			{{ end }}
 		</ul>

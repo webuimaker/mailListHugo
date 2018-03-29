@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Blog
+title: videos
 type: videos
 url: /videos/
 ---

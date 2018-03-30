@@ -9,16 +9,17 @@
             {{ if isset .Params "id" }}
               {{ partial .Params.id . }}
             {{ else }}
-            <div class="container">
+            <div class="container-fluid sectionSpace">
                 <div class="row">
 					<div class="col-md-4 side-video-list">
 						{{ partial "videolist.html" .}}
 					</div>
-					<div class="col-md-8">
-						<ul class="tve_ul6 bullet-list">
-							{{ range (where .Site.Pages "Layout" "videopage") }}
+					<div class="col-md-4">
+						<ul class="tve_ul6 bullet-list">							
+							{{ range $index, $element :=(where .Site.Pages "Layout" "videopage")  }}
+							  {{ if le ($index)  3 }}
 							  <li>
-								<h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+								<h3><a href="{{ .URL }}">{{ .Params.stitle }} </a></h3>
 								
 								 {{ if .Params.bullets }}
 								<ul>
@@ -30,24 +31,36 @@
 								</ul> 
 							{{end}}
 							  </li>
-							  
-							 
-							  
-							  
+							  {{ end }}
 							{{ end }}
 						</ul>
-						
-
-					</div>				
-                    <div class="col-md-12 fggg">						
-                        <div>						
-							{{ if (eq $.Params.toc true) }}
-								<h1>{{ .Title }}</h1>
-								{{ .TableOfContents }}
+					</div>	
+					
+					<div class="col-md-4">
+						<ul class="tve_ul6 bullet-list">							
+							{{ range $index, $element :=(where .Site.Pages "Layout" "videopage")  }}
+							 {{ if gt ($index)  3 }}
+							  <li>
+								<h3><a href="{{ .URL }}">{{ .Params.stitle }} </a></h3>
+								
+								 {{ if .Params.bullets }}
+								<ul>
+								  {{range  .Params.bullets }}
+									<li>
+										{{ . }}
+									</li>
+								  {{end}}
+								</ul> 
+							{{end}}
+							  </li>
+							  {{ end }}
 							{{ end }}
-                         
-                        </div>
-                    </div>
+						</ul>
+					</div>	
+					
+					
+					
+                   
                 </div>
                 <!-- /.row -->
             </div>
